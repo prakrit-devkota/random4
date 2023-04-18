@@ -1,0 +1,42 @@
+body{
+    background-color: #E8A0BF;
+}
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 1000px;
+}
+.image{
+    height: 500px;
+    width: 500px;
+    border: 10px solid #F6BA6F;
+    margin: 40px 380px;
+    background-color: #ADE4DB;
+    border-radius:1000px;
+    
+
+}
+h1,h2{
+    text-align: center;
+}
+@media screen and (max-width:500px) {
+    h1{
+        font-size:18px;
+
+    }
+    h2{
+        font-size:14px;
+    }
+    img{
+        height: 250px;
+        width:250px;
+       
+    }
+    .image{
+        margin:15px;
+        width:250px;
+        height:250px;
+    }
+
+    
+}
